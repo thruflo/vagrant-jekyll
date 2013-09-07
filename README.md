@@ -8,24 +8,34 @@ How to use
 
 First, make sure you've installed [Vagrant](http://docs.vagrantup.com/v2/getting-started/index.html) and [VirtualBox](https://www.virtualbox.org/).
 
-Next, clone this repo.
+Next, clone this repo:
 
 ```
 git clone git@github.com:rjsilk/vagrant-github-pages.git
 ```
 
-Now, `cd` into that directory and start up the Vagrant VM. 
+Now, `cd` into that directory and start up the Vagrant vm:
 
 ```
 cd vagrant-github-pages
 vagrant up
 ```
 
-Finally, you can ssh into the vm and do all your Jekyll-related work in there.
+Finally, you can ssh into the vm and do all your Jekyll-related work in there:
 
 ```
 vagrant ssh
 ```
+
+Port forwarding
+---------------------
+The Vagrant vm is configured to forward port 8124 by default. So you can start a Jekyll server like so:
+
+```
+jekyll server --watch 8124
+```
+
+And then navigate to localhost:8124 on your host box.
 
 Note on SSH-forwarding
 ---------------------
