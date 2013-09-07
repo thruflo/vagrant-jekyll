@@ -1,7 +1,7 @@
-GitHub Pages Jekyll Environment for Vagrant
+Vagrant file for a GitHub Pages-compatible Jekyll environment
 ====================
 
-Simple Vagrant file to build a GitHub Pages-compatible Jekyll environment. Uses the "official" github-pages gem. Use this environment to build and test your GitHub Pages-based jekyll sites without polluting your host box.
+Simple Vagrant file to build a GitHub Pages-compatible Jekyll environment. Uses the "official" github-pages gem. Use this environment to build and test your GitHub Pages-based Jekyll sites without polluting your host box.
 
 How to use
 --------------------
